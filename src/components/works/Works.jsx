@@ -1,5 +1,5 @@
 import React from 'react'
-import "./works.scss"
+import "./works.css"
 
 export default function Works() {
    return (

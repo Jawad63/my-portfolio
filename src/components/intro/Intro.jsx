@@ -1,5 +1,5 @@
 import React from 'react'
-import "./intro.scss"
+import "./intro.css"
 
 export default function Intro() {
    return (

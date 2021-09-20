@@ -1,10 +1,10 @@
-import React from 'react'
-import "./topbar.scss"
+import React from "react"
+import "./topbar.css"
 
 export default function Topbar() {
    return (
       <div className="topbar">
-         <h1>Topbar</h1>
+   
       </div>
    )
 }
