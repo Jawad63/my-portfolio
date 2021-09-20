@@ -9,6 +9,11 @@
   top: 70px;
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.app .sections::-webkit-scrollbar {
+  display: none;
 }
 
 .app .sections > * {
