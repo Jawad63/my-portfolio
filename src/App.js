@@ -3,6 +3,7 @@ import { useState } from "react";
 // here goes the components: 
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
+import Menu from "./components/menu/Menu";
 import Portfolio from "./components/portfolio/Portfolio";
 import PortfolioList from "./components/portfolioList/PortfolioList";
 import Topbar from "./components/topbar/Topbar";
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
         <Portfolio />
