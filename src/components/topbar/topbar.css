@@ -1,11 +1,13 @@
 .topbar {
   background-color: white;
-  color: #15023a;
+  color: black;
   width: 100%;
   height: 70px;
   position: fixed;
   top: 0;
   z-index: 2;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
 }
 
 .topbar .wrapper {
@@ -77,6 +79,31 @@
 .topbar .wrapper .right .hamburger span {
   width: 100%;
   height: 3px;
-  background-color: #15023a;
+  background-color: black;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.topbar.active {
+  background-color: black;
+  color: white;
+}
+
+.topbar.active .hamburger span:first-child {
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.topbar.active .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+.topbar.active .hamburger span:last-child {
+  background-color: white;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 /*# sourceMappingURL=topbar.css.map */

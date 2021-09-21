@@ -1,4 +1,5 @@
-import react from "react";
+import React from "react";
+import { useState } from "react";
 // here goes the components: 
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
@@ -9,9 +10,12 @@ import Works from "./components/works/Works";
 import "./app.css"
 
 function App() {
+
+  const [menuOpen, setMenuOpen] = useState(true);
+
   return (
     <div className="app">
-      <Topbar />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
         <Portfolio />
