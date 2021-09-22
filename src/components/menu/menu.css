@@ -34,6 +34,7 @@
   font-size: 40px;
   font-weight: 400;
   color: white;
+  width: 60%;
 }
 
 .menu ul li {
@@ -44,5 +45,9 @@
   font-size: inherit;
   color: inherit;
   text-decoration: none;
+}
+
+.menu ul li:hover {
+  font-weight: 600;
 }
 /*# sourceMappingURL=menu.css.map */

@@ -5,7 +5,7 @@ import "./menu.css"
 export default function Menu({ menuOpen, setMenuOpen }) {
    return (
       <div className={"menu " + (menuOpen && "active")}>
-         <ul>
+         <ul onClick={() => setMenuOpen(false)}>
             <li>
                <a href="#intro">Home</a>
             </li>
