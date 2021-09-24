@@ -1,4 +1,5 @@
 .portfolio {
+  padding-top: 5rem;
   background-color: paleturquoise;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,6 +19,7 @@
 
 .portfolio ul {
   margin: 10px;
+  padding-top: 3rem;
   padding: 0;
   list-style: none;
   display: -webkit-box;

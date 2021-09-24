@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .portfolio {
+   padding-top: 5rem;
    background-color: paleturquoise;
    display: flex;
    flex-direction: column;
@@ -12,6 +13,7 @@
 
    ul{
       margin: 10px;
+      padding-top: 3rem;
       padding: 0;
       list-style: none;
       display: flex;
