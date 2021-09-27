@@ -23,6 +23,7 @@ export const javascriptPortfolio = [
       id: 1,
       title: "Snake Game",
       img: "assets/snakegame.png",
+      URL: "",
    },
 ];
 
@@ -39,5 +40,6 @@ export const phpPortfolio = [
       id: 1,
       title: "CRUD Operation",
       img: "assets/crud.png",
+      URL: "",
    },
 ];
