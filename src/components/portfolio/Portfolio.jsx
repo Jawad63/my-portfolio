@@ -83,7 +83,6 @@ export default function Portfolio() {
                   <h3>{d.title}</h3>
                </div>
             ))}
-
          </div>
       </div>
    )

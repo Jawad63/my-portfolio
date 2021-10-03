@@ -9,12 +9,15 @@
   top: 0;
   z-index: 3;
   transition: all 1s ease;
+  
+
 
   .wrapper {
     padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 
     .left {
       display: flex;
@@ -46,6 +49,8 @@
     }
 
     .right {
+
+
       .hamburger {
         width: 32px;
         height: 25px;
@@ -70,9 +75,14 @@
     color: white;
 
 
+
     .hamburger {
 
+
+
       span {
+
+
 
          &:first-child {
             background-color: white;
